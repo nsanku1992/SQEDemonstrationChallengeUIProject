@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DemoProject]" parallel="classes">
+  <test thread-count="5" verbose="0" name="Tests(failed)" parallel="classes">
+    <classes>
+      <class name="com.sample.test.demo.tests.Functional_NEG">
+        <methods>
+          <include name="init"/>
+          <include name="NEG_wrong_field_information"/>
+          <include name="tearDown"/>
+          <include name="NEG_boundary_value_test2"/>
+          <include name="NEG_boundary_value_test1"/>
+          <include name="NEG_select_both_payment"/>
+        </methods>
+      </class> <!-- com.sample.test.demo.tests.Functional_NEG -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [DemoProject] -->
